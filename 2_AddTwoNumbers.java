@@ -42,10 +42,27 @@ class Solution {
 
 /*
 A same solution as provided.
-
 Note: 
 1) Beware usage of ListNode: node.next and node.val
 2) Create a ListNode(0) so that we can refer it outside (return its next)
 3) Beware a extra addNext(carry) which made output longer than input
 4) Beware different length in l1 and l2 which will cause NullPointer
+
+Follow-up question:
+What if the the digits in the linked list are stored in non-reversed order?
+
+1)reverse l1 and l2 using below code:
+
+    ListNode curr = l1;
+    ListNode pre = null;
+    ListNode incoming = null;
+    while(curr != null) {
+        incoming = curr.next;   // store incoming item
+        curr.next = pre;        // let curr point to items in before
+        pre = curr;             // store curr as reversed list
+        curr = incoming;        // next loop
+    }
+    l1 = pre; // pre is the reversed list where curr is null (end of original list)
+
+2) use stack to reverse the list
 */
