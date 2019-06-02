@@ -7,8 +7,9 @@ class Solution {
         Arrays.sort(nums);
         int closest = nums[0] + nums[1] + nums[nums.length-1];
         int diff = Math.abs(closest - target);
+        int nLen = nums.length;
         //System.out.println("diff: "+diff);
-        for (int i=0; i<nums.length; i++){
+        for (int i=0; i<nLen; i++){
         //System.out.println("i: "+i);
             int cur = nums[i];
             int tar = target - cur;
