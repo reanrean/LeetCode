@@ -1,6 +1,6 @@
 /*
 Similar logic to 39, but:
-- add return when length==1 (result is obvious)
+- add checking when length=1 (result is obvious)
 - slice one more in recursion (no duplicate element is allowed)
 */
 
