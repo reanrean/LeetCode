@@ -1,5 +1,5 @@
 /*
-Need to beware of two corner cases: "(" and ")"
+Note: Need to beware of two corner cases: "(" and ")"
 */
 
 class Solution {

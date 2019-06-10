@@ -1,5 +1,5 @@
 /*
-use stack instead of array!
+Note: use stack instead of array!
 */
 
 class Solution {
@@ -29,7 +29,7 @@ class Solution {
 
 /*
 but not yet the fastest and uses an extra stack.
-similar algorithm as solution provided:
+similar algorithm as https://leetcode.com/problems/reverse-integer/solution/
 
 the important idea is to know Integer.MAX_VALUE=2147483647 and Integer.MIN_VALUE=-2147483648
 and handle overflow.

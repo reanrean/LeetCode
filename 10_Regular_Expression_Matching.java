@@ -1,6 +1,6 @@
 /*
 It is a very difficult question. I cannot think of a solution by myself 
-so this is the algorithm of LC. 
+so this is the algorithm of https://leetcode.com/problems/regular-expression-matching/solution/
 
 I tried to use less checking against the solution but dont know why it takes more time.
 */

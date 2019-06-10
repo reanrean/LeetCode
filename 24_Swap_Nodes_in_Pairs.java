@@ -1,3 +1,7 @@
+/*
+Note: to be extremely careful when doing such things! I am not familiar with such operations.
+*/
+
 /**
  * Definition for singly-linked list.
  * public class ListNode {

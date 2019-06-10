@@ -60,7 +60,7 @@ class Solution {
 
 class Solution {
     public int lengthOfLongestSubstring(String s) {
-        //using optimized logic in solution provided
+        //using optimized logic in https://leetcode.com/problems/longest-substring-without-repeating-characters/solution/
         Map<Character, Integer> map = new HashMap<Character, Integer>();
         int maxLen = s.length();
         int maxSize = 0;

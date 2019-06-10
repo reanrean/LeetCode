@@ -1,5 +1,5 @@
 /*
-Need to revise and write it in one pass next time.
+Note: Need to revise and write it in one pass next time.
 
 At first I attempted to write in one pass(no recursion), but alert Memory Exceeded. Why?
 */

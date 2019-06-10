@@ -47,7 +47,7 @@ class Solution {
 }
 
 /*
-optimized solution based on LC solution
+optimized solution based on https://leetcode.com/problems/generate-parentheses/solution/
 */
 
 class Solution {
