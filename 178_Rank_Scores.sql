@@ -12,3 +12,9 @@ on a.score <= b.score
 group by a.score) c
 on s.score = c.score
 order by s.score desc
+
+/*Note: simple? but run slower*/
+
+SELECT score,(SELECT COUNT(DISTINCT score) FROM Scores where score > a.score) + 1 rank
+from Scores a
+ORDER by score DESC;
